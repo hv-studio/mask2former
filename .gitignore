@@ -1,0 +1,108 @@
+# ==========================================
+# Python Core & Byte-code
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+pythonenv/
+
+# ==========================================
+# Secrets & Environment Variables
+# ==========================================
+.env
+.flaskenv
+*.secret
+*.pem
+*.key
+
+# ==========================================
+# Distribution / Packaging / Builds
+# ==========================================
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+htmlcov/
+.tox/
+.noseresults/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.pytest/
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# ==========================================
+# IDEs & Editors (VS Code, PyCharm, etc.)
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+.history/
+*.code-workspace
+
+# ==========================================
+# System Files & Data Science
+# ==========================================
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints
+
+# ==========================================
+# Package Management (Poetry, uv, pip, etc.)
+# ==========================================
+.envrc
+
+# ==========================================
+# Root Script
+# ==========================================
+/main.py
+/main.ipynb
+/test.py
+/test.ipynb
+/try.py
+/try.ipynb
+
+# ==========================================
+# Agent Record (Codex, Claude, etc.)
+# ==========================================
+/.codex

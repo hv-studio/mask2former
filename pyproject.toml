@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77,<81", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mask2former"
+version = "0.1.0+hvstudio.1"
+description = "hvstudio integration package for Mask2Former"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+license-files = [
+    "LICENSE",
+]
+dependencies = [
+    "numpy",
+    "Pillow",
+    "torch",
+    "torchvision",
+    "timm",
+    "einops",
+    "scipy",
+    "tqdm",
+    "tabulate",
+    "pycocotools",
+    "fvcore",
+    "detectron2==0.6.0+hvstudio.1",
+    "panopticapi==0.1.0+hvstudio.1",
+    "MultiScaleDeformableAttention==1.0.0+hvstudio.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mask2former*"]
+namespaces = false

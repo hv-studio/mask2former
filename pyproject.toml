@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mask2former"
-version = "0.1.0+hvstudio.1"
+version = "0.1.0+hvstudio.2"
 description = "hvstudio integration package for Mask2Former"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -24,9 +24,9 @@ dependencies = [
     "tabulate",
     "pycocotools",
     "fvcore",
-    "detectron2==0.6.0+hvstudio.1",
+    "detectron2==0.6.0+hvstudio.2",
     "panopticapi==0.1.0+hvstudio.1",
-    "MultiScaleDeformableAttention==1.0.0+hvstudio.1",
+    "MultiScaleDeformableAttention==1.0.0+hvstudio.2",
 ]
 
 [tool.setuptools.packages.find]
